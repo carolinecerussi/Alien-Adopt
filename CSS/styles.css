@@ -61,7 +61,7 @@ background-color: rgba(255, 255, 255, 0.531);
 
 .pets h1 {
   text-align: center;
-  color:rgba(157, 59, 136, 0.633);
+  color:rgba(0, 0, 0, 0.871);
   font-family: 'Courier New', Courier, monospace;
   line-height: 5pt;
 }
@@ -72,5 +72,5 @@ background-color: rgba(255, 255, 255, 0.531);
 }
 
 html {
-background-color:white;
+background-color:rgb(75, 127, 232);
 }
