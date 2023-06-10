@@ -1,8 +1,8 @@
 
 body {
   float: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 img {
@@ -14,8 +14,12 @@ img {
 
 header {
   width: 100%;
-  background-color: rgba(176, 178, 33, 0.781)0.568);
+  background-color: rgba(176, 178, 33, 0.781)0.568;
 
+}
+
+form{
+  color: white;
 }
 
 header img {
