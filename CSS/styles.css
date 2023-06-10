@@ -14,40 +14,44 @@ img {
 
 header {
   width: 100%;
-    background-image: url(/IMG/clinic.png)  ;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  font-family:'Gill Sans';
+  background-color: rgba(176, 178, 33, 0.781)0.568);
+
+}
+
+header img {
+  border-radius: 50%;
 }
 
 header h1 {
   text-align: center;
-  padding-left: 5%;
   font-size: 60pt;
-  padding-right: 5%;
-  color: rgb(181, 181, 57);
+  color: rgb(204, 255, 0);
 }
 header h2 {
   text-align: center;
-  font-size: 30pt;
-  color: rgb(97, 99, 225);
-
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+  font-style: italic;
 }
 
 
 
-.pet-list h1, nav {
-text-align: center;
+.pet-list h1 {
+margin-top: 10%;
+text-align: left;
 background-color: transparent;
+color: greenyellow;
 }
 
+.pet-list nav {
+  color: greenyellow;
+}
 .pets {
   width: 300px;
   border: solid rgb(200, 255, 0);
   border-width: 4px;
   padding: 5pt;
-  margin: 5px;
+  margin: 10px;
   box-sizing: border-box;
 background-color: rgba(255, 255, 255, 0.531);
   float: left;
@@ -63,7 +67,7 @@ background-color: rgba(255, 255, 255, 0.531);
 
 .pets h1 {
   text-align: center;
-  color:rgba(0, 0, 0, 0.871);
+  color:rgb(0, 0, 0);
   font-family: 'Courier New', Courier, monospace;
   line-height: 5pt;
 }
@@ -74,6 +78,6 @@ background-color: rgba(255, 255, 255, 0.531);
 }
 
 html {
-background-color:rgb(75, 127, 232);
+background-color:rgb(0, 0, 0);
 }
 
