@@ -1,64 +1,79 @@
 
 body {
   float: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  font-family: "Space Time";
+  font-size: 15pt;
 }
 
 img {
-  margin:auto;
-  height: auto;
-  display:block
-  
+text-align: center;
+height: auto;
+margin: 15%;
+border-radius: 50%;
 }
 
 header {
-  width: 100%;
-  background-color: rgba(176, 178, 33, 0.781)0.568;
+padding: 5%;
 
 }
 
 form{
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgba(234, 255, 0, 0.609);
+  padding: 10%;
+  border-radius: 15pt;
+  font-size: 18pt;
+}
+
+form input {
+  border-color: transparent;
+  border-radius: 15pt;
+  font-size: 14pt;
+  margin: 10pt;
+  padding: 4pt;
 }
 
 header img {
   border-radius: 50%;
+  width: 30%;
 }
 
 header h1 {
-  text-align: center;
-  font-size: 60pt;
-  color: rgb(204, 255, 0);
+text-align: center;
+font-size: 50pt;
+color: rgb(204, 255, 0);
 }
 header h2 {
   text-align: center;
-  font-size: 20pt;
   color: rgb(255, 255, 255);
   font-style: italic;
 }
 
+h1 {
+  color: rgb(255, 255, 255);
+}
 
 
 .pet-list h1 {
-margin-top: 10%;
-text-align: left;
+text-align: center;
 background-color: transparent;
-color: greenyellow;
+color: rgb(255, 255, 255);
 }
 
 .pet-list nav {
-  color: greenyellow;
+  color: transparent;
 }
 .pets {
-  width: 300px;
+  text-align: center;
+  width: 350px;
+  margin: 10pt;
   border: solid rgb(200, 255, 0);
-  border-width: 4px;
-  padding: 5pt;
-  margin: 10px;
+  border-width: 3px;
   box-sizing: border-box;
-background-color: rgba(255, 255, 255, 0.531);
+background-color: rgba(32, 21, 21, 0.614);
   float: left;
+  border-radius: 10%;
+  margin-left: 5%;
 }
 
 .pets img {
@@ -71,17 +86,28 @@ background-color: rgba(255, 255, 255, 0.531);
 
 .pets h1 {
   text-align: center;
-  color:rgb(0, 0, 0);
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 5pt;
+  color:rgb(218, 254, 11);
 }
 
 .pets p {
   font-family: 'Courier New', Courier, monospace;
-  padding-left: 10pt;
+  padding:5%;
+  color: white;
+
+
 }
 
 html {
-background-color:rgb(0, 0, 0);
-}
+background-image:url(../IMG/Caroline_Cerussi_SheHer_realistic_stars_in_space_fun_simple_bac_8f04fe4f-dd84-4ac5-88a6-299b03d9dfc6.png);
+background-size: cover;
 
+}
+button {
+  border-color: transparent;
+  border-radius: 50pt;
+  background-color: rgba(255, 255, 255, 0.548);
+  font-style:normal;
+  color: white;
+  font-size: 16pt;
+  padding:10pt;
+}
