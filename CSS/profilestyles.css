@@ -1,0 +1,36 @@
+button {
+    border-radius: 2%;
+    display: inline-block;
+    justify-content: center;
+    background-color: white;
+    font-size: 30pt;
+border-color: transparent;
+
+}
+
+a {
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+
+
+}
+
+h1 {
+    font-size: 40pt;
+    font-family: sans-serif;
+}

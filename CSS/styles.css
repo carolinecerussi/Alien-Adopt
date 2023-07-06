@@ -1,28 +1,36 @@
 
 body {
   float: left;
-  font-family: "Space Time";
+  font-family: 'Courier New', Courier, monospace;
   font-size: 15pt;
+  text-align: center;
 }
 
-img {
+
+div.thankYou {
+color: rgb(255, 255, 255);
 text-align: center;
-height: auto;
-margin: 15%;
-border-radius: 50%;
+margin:20%;
+font-size: 30pt;
+background-color: black;
+padding: 10%;
 }
 
-header {
-padding: 5%;
 
+header img {
+  width: 100%;
+  display: inline-block;
 }
+
+
 
 form{
   color: rgb(0, 0, 0);
-  background-color: rgba(234, 255, 0, 0.609);
-  padding: 10%;
+  background-color: rgba(234, 255, 0, 0.526);
+  padding: 5%;
   border-radius: 15pt;
   font-size: 18pt;
+  margin: 15%;
 }
 
 form input {
@@ -33,81 +41,146 @@ form input {
   padding: 4pt;
 }
 
-header img {
-  border-radius: 50%;
-  width: 30%;
-}
-
 header h1 {
 text-align: center;
 font-size: 50pt;
-color: rgb(204, 255, 0);
+color: rgb(255, 255, 255);
 }
+
 header h2 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-style: italic;
+  font-family: arial;
+  font-size: 20pt;
 }
 
-h1 {
-  color: rgb(255, 255, 255);
-}
 
+.pet-list {
+  display: inline-block;
+  justify-content: center;
+  
+background-color: rgba(252, 172, 123, 0.404);
+}
 
 .pet-list h1 {
 text-align: center;
 background-color: transparent;
 color: rgb(255, 255, 255);
-}
+font-size: 40pt;
+font-family: 'bubblegum'}
 
 .pet-list nav {
   color: transparent;
 }
 .pets {
   text-align: center;
-  width: 350px;
-  margin: 10pt;
-  border: solid rgb(200, 255, 0);
-  border-width: 3px;
+  width: 25%;
+  border: solid rgb(255, 123, 75);
+  border-width: 2pt;
   box-sizing: border-box;
-background-color: rgba(32, 21, 21, 0.614);
-  float: left;
-  border-radius: 10%;
-  margin-left: 5%;
+background-color: rgba(255, 253, 253, 0.614);
+  border-radius: 2%;
+  margin: 20pt;
+display: inline-block;
 }
 
+.pets:hover {
+scale: 1.01;  border: solid rgb(255, 85, 0);
+  border-width: 2pt;
+  box-sizing: border-box;
+background-color: rgba(252, 152, 115, 0.614);
+  border-radius: 2%;
+  margin: 20pt;
+display: inline-block;
+}
+
+
 .pets img {
-  border-radius: 100pt;
-  border-width: 5pt;
-  padding: 5%;
-  width: 200px;
-  height: 200px;
+  border-radius: 150pt;
+display: inline-block; 
+width: 80%;
+  box-sizing: border-box;
+  margin: 5%;
+
 }
 
 .pets h1 {
   text-align: center;
-  color:rgb(218, 254, 11);
+  line-height: .4;
+  color:rgb(251, 101, 56);
 }
 
 .pets p {
   font-family: 'Courier New', Courier, monospace;
   padding:5%;
-  color: white;
+  color: black;
+  text-align: left;
 
 
 }
 
 html {
-background-image:url(../IMG/Caroline_Cerussi_SheHer_realistic_stars_in_space_fun_simple_bac_8f04fe4f-dd84-4ac5-88a6-299b03d9dfc6.png);
+background-image:url(../IMG/backspace.png);
 background-size: cover;
 
 }
 button {
   border-color: transparent;
-  border-radius: 50pt;
-  background-color: rgba(255, 255, 255, 0.548);
   font-style:normal;
+  color: rgb(1, 1, 1);
+  font-size: 15pt;
+  padding:5pt;
+  border-radius: 20pt;
+  text-align: center;
+}
+
+div.petProfile {
+  color:white;
+  width: 50%;
+  text-align: center;
+
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
   color: white;
-  font-size: 16pt;
-  padding:10pt;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
