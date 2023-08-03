@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Righteous&display=swap');
 
 body {
   float: left;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Righteous';
   font-size: 15pt;
   text-align: center;
 }
+html {
+background-image:url(../IMG/backspace.png);
+background-size: cover;
+}
 
+button {
+  border-color: transparent;
+  font-style:normal;
+  background-color: transparent;
+  color: rgb(1, 1, 1);
+  font-size: 20pt;
+  text-align: center;
+    font-family: 'Righteous';
+color: hotpink;
+  align-items: center;
+}
 
 div.thankYou {
 color: rgb(255, 255, 255);
@@ -14,17 +30,14 @@ margin:20%;
 font-size: 30pt;
 background-color: black;
 padding: 10%;
-}
+  font-family: 'Righteous';
 
-
-header img {
-  width: 100%;
-  display: inline-block;
 }
 
 
 
-form{
+
+#adopt{
   color: rgb(0, 0, 0);
   background-color: rgba(234, 255, 0, 0.526);
   padding: 5%;
@@ -41,19 +54,13 @@ form input {
   padding: 4pt;
 }
 
-header h1 {
+header h1, h2 {
 text-align: center;
-font-size: 50pt;
-color: rgb(255, 255, 255);
+font-size: 100pt;
+color:black;
+width: 100vw;
 }
 
-header h2 {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-style: italic;
-  font-family: arial;
-  font-size: 20pt;
-}
 
 
 .pet-list {
@@ -68,7 +75,8 @@ text-align: center;
 background-color: transparent;
 color: rgb(255, 255, 255);
 font-size: 40pt;
-font-family: 'bubblegum'}
+font-family: 'Righteous';
+}
 
 .pet-list nav {
   color: transparent;
@@ -76,7 +84,7 @@ font-family: 'bubblegum'}
 .pets {
   text-align: center;
   width: 25%;
-  border: solid rgb(255, 123, 75);
+  border: solid rgb(0, 0, 0);
   border-width: 2pt;
   box-sizing: border-box;
 background-color: rgba(255, 253, 253, 0.614);
@@ -108,40 +116,22 @@ width: 80%;
 .pets h1 {
   text-align: center;
   line-height: .4;
-  color:rgb(251, 101, 56);
-}
+color: black;}
 
 .pets p {
-  font-family: 'Courier New', Courier, monospace;
   padding:5%;
   color: black;
   text-align: left;
 
-
 }
 
-html {
-background-image:url(../IMG/backspace.png);
-background-size: cover;
 
-}
-button {
-  border-color: transparent;
-  font-style:normal;
-  color: rgb(1, 1, 1);
-  font-size: 15pt;
-  padding:5pt;
-  border-radius: 20pt;
-  text-align: center;
-}
 
 div.petProfile {
   color:white;
   width: 50%;
   text-align: center;
-
 }
-
 
 .container {
   position: relative;
@@ -183,4 +173,13 @@ div.petProfile {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+#footer {
+  margin-top: 5pt;
+  text-align: left;
+  width: 85%;
+  margin-left: 7.5%;
+color: white;
+align-items: center;
 }
